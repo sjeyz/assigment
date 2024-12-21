@@ -80,3 +80,28 @@ void divide() {
         cout << "Error: Division by zero is not allowed." << endl;
     }
 }
+#include <iostream>
+#include <cmath> 
+
+bool isPerfectSquare(int number) {
+    if (number < 0) {
+        return false; 
+    }
+    int root = static_cast<int>(sqrt(number)); 
+    return root * root == number;
+}
+
+int main() {
+    int number;
+
+    std::cout << "Enter a number: ";
+    std::cin >> number;
+
+    if (isPerfectSquare(number)) {
+        std::cout << number << " is a perfect square." << std::endl;
+    } else {
+        std::cout << number << " is not a perfect square." << std::endl;
+    }
+
+    return 0;
+}
