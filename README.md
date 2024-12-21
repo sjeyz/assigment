@@ -126,3 +126,36 @@ int main() {
     }
     return 0;
 }
+#include <iostream>
+#include <cmath> // For the pow function
+using namespace std;
+
+// Function to calculate the power of a number
+double power(double base, int exponent = 2) {
+    return pow(base, exponent);
+}
+
+int main() {
+    double n;
+    int p = 2; // Default value for the exponent
+
+    // Prompt for the base
+    cout << "Enter the base (n): ";
+    cin >> n;
+
+    // Prompt for the exponent (optional)
+    cout << "Enter the exponent (p) (or press Enter for default 2): ";
+    if (cin.peek() != '\n') { // Check if the user enters something
+        cin >> p;
+    }
+
+    // Call the power function and display the result
+    double result = power(n, p);
+    cout << "The result of " << n << " raised to the power " << p << " is: " << result << endl;
+
+    return 0;
+}
+
+
+
+
