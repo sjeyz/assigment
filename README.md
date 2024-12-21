@@ -29,6 +29,17 @@ int main() {
     return 0;
 }
 
+#include<iostream>
+using namespace std;
+int main(){ //main function
+  cout<<"DO you want the play the game ? (y,n)";
+  string response;
+  cin>>response;
+  cout<<"you enter"<<""<<response<<endl;
+  if(response == "y"){
+  	cout<<"let play the game, then.../n";
+  }
+
 // Function definitions
 void sum() {
     int num1, num2;
