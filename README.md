@@ -180,5 +180,20 @@ int main() {
         for (int j = 0; j < i; ++j) {
             std::cout << "*";
         }
+        
+#include <iostream>
+
+int main() {
+    int rows = 5; 
+    for (int i = rows; i > 0; --i) {
+        for (int j = 0; j < i; ++j) {
+            std::cout << "*";
+        }
+        
+        std::cout << std::endl;
+    }
+
+    return 0;
+}
 
 
