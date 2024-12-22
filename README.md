@@ -271,3 +271,20 @@ int main() {
 
     return 0;
 }
+#include <iostream>
+#include <cmath>
+
+bool checkPowerEquality(double base, double exponent, double target) {
+    return std::abs(std::pow(base, exponent) - target) < 1e-9;
+}
+
+int main() {
+    double num1, num2, num3;
+    std::cin >> num1 >> num2 >> num3;
+    if (checkPowerEquality(num1, num2, num3)) {
+        std::cout << "True\n";
+    } else {
+        std::cout << "False\n";
+    }
+    return 0;
+}
