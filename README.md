@@ -356,3 +356,22 @@ int main() {
 
     return 0;
 }
+
+
+#include <iostream>
+#include <string>
+
+void displayName(const std::string &name) {
+    std::cout << "Hello, " << name << "!" << std::endl;
+}
+
+int main() {
+    std::string userName;
+
+    std::cout << "Enter your name: ";
+    std::getline(std::cin, userName);
+
+    displayName(userName);
+
+    return 0;
+}
