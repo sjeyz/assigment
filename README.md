@@ -397,3 +397,19 @@ int main() {
 
     return 0;
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Style</title>
+  <link rel="stylesheet" href="project.css">
+</head>
+<body>
+  <h1>This is heading one</h1>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit a molestias porro voluptates at, hic placeat dignissimos officia .
+  </p>
+  <h1>something in the heading</h1>
+  <h1> something in the heading</h1>
+  <button>cilck me </button>
+</body>
+</html>
