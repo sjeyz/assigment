@@ -482,4 +482,27 @@ int main(){
 		cout<<"**************************************************"<<endl; 
 		return 0;
 }
-
+#include<iostream>
+using namespace std;
+ class student{
+ 	public:
+ 	string name;
+ 	string depertment;
+ 	int rollno;
+ 	double cgp;
+ 	
+ student(string s, string b,int r,double c){
+	name = s;
+	rollno = r;
+	cgp = c;
+	depertment = b;
+}
+};
+int main(){
+	student s1("sawera", "bsse",34,3.4);
+	cout<<"student name :"<<s1.name<<endl;
+	cout<<"student depertment:"<<s1.depertment<<endl;
+	cout<<"student rollno:"<<s1.rollno<<endl;
+	cout<<"student cgp:"<<s1.cgp<<endl;
+	return 0;
+}
