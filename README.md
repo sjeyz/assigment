@@ -438,3 +438,48 @@ int main(){
 	
 	return 0;
 }
+
+#include<iostream>
+using namespace std;
+class car{
+	public:
+	string name;
+	double price;
+	string type;
+	string seats;
+	;
+};
+int main(){
+	car c1;
+	c1.name ="honda City";
+	c1.price = 85000;
+	c1.type = "sendan";
+	c1.seats = "two seater";
+	cout<<c1.name<<endl;
+	cout<<c1.type<<endl; 
+	cout<<c1.price<<endl; 
+		cout<<c1.seats<<endl;
+		cout<<"***************************************"<<endl;
+		car c2;
+	c2.name ="parder";
+	c2.price = 102000;
+	c2.type = "sendan";
+	c2.seats = "two seater";
+	car c3;
+	c3.name ="BNW";
+	c3.price = 24007000;
+	c3.type = "sendan";
+	c3.seats = "four seater";
+	cout<<c2.name<<endl;
+	cout<<c2.type<<endl; 
+	cout<<c2.price<<endl; 
+		cout<<c2.seats<<endl; 
+		cout<<"************************************************"<<endl; 
+			cout<<c3.name<<endl;
+	cout<<c3.type<<endl; 
+	cout<<c3.price<<endl; 
+		cout<<c3.seats<<endl; 
+		cout<<"**************************************************"<<endl; 
+		return 0;
+}
+
