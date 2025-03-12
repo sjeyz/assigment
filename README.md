@@ -412,4 +412,29 @@ int main() {
   <h1> something in the heading</h1>
   <button>cilck me </button>
 </body>
-</html>
+</html>#include<iostream>
+using namespace std;
+class student{
+	public:
+	string name;
+	string deperment;
+	int rollno;
+	double cgp;
+};
+int main(){
+	student s1;
+	s1.name = "sawera";
+	s1.rollno = 034;
+	s1.cgp = 8.9;
+	s1.deperment = "Bsse 1b";
+	cout<<s1.name<< " "<<s1.cgp<<" "<<s1.deperment<<" "<<s1.rollno<<endl;
+	
+	student s2;
+	s1.name = "Aliza";
+	s1.rollno = 005;
+	s1.cgp = 6.9;
+	s1.deperment = "Bsse 1b";
+	cout<<s1.name<< " "<<s1.deperment<<" "<<s1.rollno<<" "<<s1.cgp<<endl;
+	
+	return 0;
+}
